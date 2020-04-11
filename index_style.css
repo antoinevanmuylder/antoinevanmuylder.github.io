@@ -1,0 +1,80 @@
+@font-face {
+    font-family : 'fontin' ;
+    src : url('./Fontin-Regular.otf') ;
+}
+
+
+@media (min-width : 1000px) {
+    body {
+        width : 1000px ;
+        margin-left : auto ;
+        margin-right : auto ;
+        margin-top : 20px ;
+        font-family : 'fontin' ;
+    }
+
+    header {
+        margin-top : 40px ;
+        float : right ;
+    }
+
+    section {
+        width : 800px ;
+    }
+}
+
+@media (max-width : 1000px) {
+    body {
+        width: auto;
+        padding-left : 20px;
+        margin-top : 20px;
+        margin-right: 0px;
+        margin-left: 0px;
+        font-family: 'fontin' ;
+    }
+
+    header {
+        display: none ;
+    }
+}
+
+section:first-of-type {
+    padding-top : 80px ;
+}
+
+section p {
+    text-indent : 20px ;
+}
+
+ul {
+    padding-left : 20px ;
+    /* background-size : 16px ; */
+    /* background-repeat : no-repeat ; */
+}
+
+
+
+a[href] {
+    text-decoration-style : dashed ;
+    color : rgb(200,0,0) ;
+}
+
+a, a[href=""] {
+    text-decoration-style : wavy ;
+    color : purple;
+}
+
+.comment::before {
+    content: "/* " ;
+}
+
+.comment::after {
+    content: " */" ;
+}
+
+.comment {
+    color: green ;
+    font-style : italic ;
+    font-family : monospace ;
+}
+
