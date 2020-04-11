@@ -9,13 +9,14 @@
         width : 1000px ;
         margin-left : auto ;
         margin-right : auto ;
-        margin-top : 20px ;
+        /* margin-top : 20px ; */
         font-family : 'fontin' ;
     }
 
     header {
-        margin-top : 40px ;
-        float : right ;
+        /*margin-top : 40px ; */
+        /*float : right ; */
+        width : 800px;
     }
 
     section {
@@ -38,12 +39,17 @@
     }
 }
 
+body {
+    padding-bottom : 30px;
+}
+
 section:first-of-type {
-    padding-top : 80px ;
+    /*padding-top : 80px ;*/
 }
 
 section p {
     text-indent : 20px ;
+    text-align : justify;
 }
 
 ul {
