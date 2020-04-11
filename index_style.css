@@ -25,11 +25,11 @@
     header {
         /*margin-top : 40px ; */
         /*float : right ; */
-        width : 800px;
+        width : 900px;
     }
 
     section {
-        width : 800px ;
+        width : 900px ;
     }
 }
 
@@ -52,6 +52,7 @@ body {
     padding-bottom : 30px;
     font-family : 'alegreya' ;
     font-size : 120% ;
+    background-color : #FFFAF0 ;
 }
 
 section:first-of-type {
