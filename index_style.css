@@ -25,11 +25,11 @@
     header {
         /*margin-top : 40px ; */
         /*float : right ; */
-        width : 900px;
+        width : 850px;
     }
 
     section {
-        width : 900px ;
+        width : 850px ;
     }
 }
 
@@ -51,9 +51,9 @@
 
 body {
     padding-bottom : 30px;
-    font-family : 'alegreya' ;
+    font-family : 'alegreya', noto sans,Roboto,lucida grande,san francisco,sans-serif ;
     font-size : 120% ;
-    background-color : #FFFAF0 ;
+    /* background-color : #FFFAF0 ; */
 }
 
 section:first-of-type {
