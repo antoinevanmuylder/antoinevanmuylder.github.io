@@ -19,3 +19,5 @@
 *.cut
 *.fls
 *.fdb_latexmk
+
+!intobs-param.pdf
