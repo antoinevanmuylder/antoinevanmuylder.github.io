@@ -21,3 +21,4 @@
 *.fdb_latexmk
 
 !intobs-param.pdf
+!abstract.pdf
